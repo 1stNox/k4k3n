@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "kr4k3n"
+version = "0.0.1"
+description = "A cli tool to manage mono repositories for IaC."
+authors = ["Finn-Lasse Reichling <finn.lasse.reichling@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
